@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Device</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="100" height="100" alt="Логотип магазина Device">
+        </a>
+        <ul class="user-navigation">
+          <li class="search">Поиск по сайту</li>
+          <li class="login-link">Войти</li>
+          <li class="comparison">Сравнить</li>
+          <li class="cart">Корзина</li> 
+        </ul>
+        <ul class="site-navigation>
+          <li><a href="catalog.html">Каталог товаров</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+          <li><a href="guarantee.html">Гарантия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+
+      <h1 class="visually-hidden">Магазин Девайс</h1>
+
+    <section class="preview">
+      <p><b>Делай селфи, как Бен Стиллер!</b></p>
+      <p>Самая длинная палка для селфи доступна в нашем магазине.<br>
+         Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+      <a href="more.html">Подробнее</a>
+    </section>
+
+    <section class="goods">
+      <h2 class="visually-hidden">Товары</h2>
+      <ul class="goods-list">
+        <li><a href="VR.html">Виртуальная реальность</a></li>
+        <li><a href="monopods.html">Моноподы для селфи</a></li>
+        <li><a href="action-cameras.html">Экшн-камеры</a></li>
+        <li><a href="fitness-bracelets.html">Фитнесс браслеты</a></li>
+        <li><a href="smart-watch.html">Умные часы</a></li>
+        <li><a href="quadcopters.html">Квадрокоптеры</a></li>
+      </ul>
+    </section>
+
+    <section class="conditions">
+      <h2 class="visually-hidden">Условия</h2>
+      <ul class="conditions-list">
+        <li><span class="button conditions-button conditions-button-delivery">Доставка</span></li>
+        <li><span class="button conditions-button conditions-button-guarantee">Гарантия</span></li>
+        <li><span class="button conditions-button conditions-button-credit">Кредит</span></li>
+      </ul>
+    </section>
+
+    <section class="information">
+      <h2>О нас</h2>
+      <p>
+         Огромный выбор гаджетов не оставит равнодушным гика,<br>
+         который есть в каждом из нас.
+      </p>
+      <p>
+         Мы можем доставить ваш товар в самые отдаленные точки<br>
+         России! DEVICE работает со многими транспортными компаниями:
+      </p>
+      <ul class="transport-companies">
+        <li>Деловые Линии</li>
+        <li>Автотрейдинг</li>
+        <li>ЖелДорЭкспедиция</li>
+      </ul>
+      <a href="information-more.html">Подробнее о нас</a>
+
+      <h2>Контакты</h2>
+      <p>
+         Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
+         проверить работоспособность покупки. Всякое бывает.
+      </p>
+      <a href="communication.html">Напишите нам</a>
+    </section>
+    </main>
+
+    <footer class="main-footer">
+      <a class="main-footer-logo">
+        <img src="img/index-logo.svg" width="100" height="100" alt="Логотип магазина Device">
+      </a>
+      <ul class="user-navigation">
+        <li class="login-link">Войти</li>
+        <li class="comparison">Сравнить</li>
+        <li class="cart">Корзина</li> 
+      </ul>
+      <p class="footer-address">
+        г. Москва, ул. Строителей, 15
+      </p>
+      <ul class="site-navigation">
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="guarantee.html">Гарантия</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <p class="footer-telephone-number">
+        Тел.: +7(495)495-95-95
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+
+     
