@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="index.html" class="main-header-logo">
+          <img src="img/index-logo.svg" width="100" height="100" alt="Логотип магазина Device">
+        </a>
+        <ul class="user-navigation">
+          <input type="text" name="search" value="Поиск по сайту">
+          <a href="profile.html">Валентин Петухов</a>
+          <a href="logout-link.html">Выйти</a>
+          <a href="comparison.html">Сравнить</a>
+          <a href="cart.html">Корзина</a>
+        </ul>
+        <ul class="site-navigation>
+          <a href="catalog.html">Каталог товаров</a>
+          <a href="delivery.html">Доставка</a>
+          <a href="guarantee.html">Гарантия</a>
+          <a href="contacts.html">Контакты</a>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+
+      <h1 class="visually-hidden">Магазин Девайс</h1>
+
+      <h2>Моноподы для селфи</h2>
+      <ul class="breadcrumbs">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог товаров</a>
+        <a class="monopods.html">Моноподы для селфи</a>
+      </ul>
+
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <h2>Фильтр:</h2>
+          <b>Стоимость</b>
+          <p>
+            <span class="low-cost">от 0</span>
+            <span class="high-cost">до 5000</span>
+          </p>
+
+          <b>Цвет</b>
+          <p>
+            <label>
+              <input type="checkbox" value="black" checked>Черный<br>
+            </label>
+            <label>
+              <input type="checkbox" value="white">Белый<br>
+            </label>
+            <label>
+              <input type="checkbox" value="blue" checked>Синий<br>
+            </label>
+            <label>
+              <input type="checkbox" value="red" checked>Красный<br>
+            </label>
+            <label>
+              <input type="checkbox" value="pink">Розовый</p>
+            </label>
+
+          <b>Bluetooth</b>
+          <p><input type="radio" name="bluetooth" value="yes" checked>Есть<br>
+          <input type="radio" name="bluetooth" value="no">Нет</p>
+
+          <input type="submit" value="Показать">
+      </form>
+
+      <section class="sorting">
+        <h2>Сортировка:</h2>
+        <ul class="item-sorting">
+          <a href="for-price.html">По цене</a>
+          <a href="for-type.html">По типу</a>
+          <a href="for-popularity.html">По популярности</a>
+        </ul>
+      </section>
+      <section class="container">
+      <div>
+        <img src="img/catalog-item-1.svg" width="100" height="100">
+        <h3>Любительская селфи-палка</h3>
+        <span>500 руб.</span>
+      </div>
+      <div>
+        <img src="img/catalog-item-2.svg" width="100" height="100">
+        <h3>Профессиональная селфи-палка</h3>
+        <span>1 500 руб.</span>
+      </div>
+      <div>
+        <img src="img/catalog-item-3.svg" width="100" height="100">
+        <h3>Непотопляемая селфи-палка</h3>
+        <span>2 500 руб.</span>
+      </div>
+      <div>
+        <img src="img/catalog-item-4.svg" width="100" height="100">
+        <h3>Селфи-палка "Следуй за мной"</h3>
+        <span>4 900 руб.</span>
+      </div>
+      </section>
+      <ul class="pagination">
+        <a class="page-back">Назад</a>
+        <a href="page-forward.html">Вперед</a>
+      </ul>
+    </main>
+
+    <footer class="main-footer">
+      <a class="main-footer-logo">
+        <img src="img/index-logo.svg" width="100" height="100" alt="Логотип магазина Device">
+      </a>
+      <ul class="user-navigation">
+        <a href="login-link.html">Войти</a>
+        <a href="compare.html">Сравнить</a>
+        <a href="cart.html">Корзина</a>
+      </ul>
+      <p class="footer-address">
+        г. Москва, ул. Строителей, 15
+      </p>
+      <ul class="site-navigation">
+        <a href="delivery.html">Доставка</a>
+        <a href="guarantee.html">Гарантия</a>
+        <a href="contacts.html">Контакты</a>
+      </ul>
+      <p class="footer-telephone-number">
+        Тел.: +7(495)495-95-95
+      </p>
+    </footer>
+  </body>
+</html>
