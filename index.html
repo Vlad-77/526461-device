@@ -10,14 +10,30 @@
         <a class="main-header-logo">
           <img src="img/logo.png" width="100" height="20" alt="Девайс">
         </a>
+        <form class="search" action="https://echo.htmlacademy.ru" method="get">
+          <input type="text" name="search-on-site" placeholder="Поиск по сайту">
+        </form>
         <ul class="user-navigation">
-          <li><a href="search.html">Поиск по сайту</a></li>
           <li><a href="login-link.html">Войти</a></li>
           <li><a href="compare.html">Сравнить</a></li>
           <li><a href="cart.html">Корзина</a></li>
         </ul>
+        <section class="modal modal-catalog-menu">
+          <button class="modal-open" type="button">Каталог товаров</button>
+          <ul>
+            <li><a href="VR.html">Виртуальная реальность</a></li>
+            <li><a href="monopods.html">Моноподы для селфи</a></li>
+            <li><a href="action-cameras.html">Экшн-камеры</a></li>
+          </ul>
+          <ul>
+            <li><a href="fitness-bracelets.html">Фитнес-браслеты</a></li>
+            <li><a href="smart-watch.html">Умные часы</a></li>
+          </ul>
+          <ul>
+            <li><a href="quadcopters.html">Квадрокоптеры</a></li>
+          </ul>
+        </section>
         <ul class="site-navigation">
-          <li><a href="catalog.html">Каталог товаров</a></li>
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="guarantee.html">Гарантия</a></li>
           <li><a href="contacts.html">Контакты</a></li>
@@ -28,15 +44,26 @@
 
       <h1 class="visually-hidden">Магазин Девайс</h1>
       <img src="img/slider-1.png" width="200" height="200" alt="Селфи-палка">
-      <img src="img/slider-2.png" width="200" height="200" alt="Браслет">
-      <img src="img/slider-3.png" width="220" height="200" alt="Квадрокоптер">
-    <section class="preview">
+    <section class="preview-1">
       <p><b>Делай селфи, как Бен Стиллер!</b></p>
       <p>Самая длинная палка для селфи доступна в нашем магазине.<br>
          Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-      <a href="more.html">Подробнее</a>
+      <a href="monopods.html">Подробнее</a>
     </section>
-
+      <img src="img/slider-2.png" width="200" height="200" alt="Браслет">
+      <section class="preview-2">
+        <p><b>Худеем правильно!</b></p>
+        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
+           не пропускать занятия и соблюдать диету.</p>
+        <a href="fitness-bracelets.html">Подробнее</a>
+      </section>
+      <img src="img/slider-3.png" width="220" height="200" alt="Квадрокоптер">
+      <section class="preview-3">
+        <p><b>Порхает как бабочка, жалит как пчела!</b></p>
+        <p>Этот обычный, на первый взгляд, квадрокоптер оснащен
+        мощным лазером, замаскированным под стандартную камеру.</p>
+        <a href="quadcopters.html">Подробнее</a>
+      </section>
     <section class="goods">
       <h2 class="visually-hidden">Товары</h2>
       <img src="img/popular-1.svg" width="60" height="60" alt="VR">
@@ -49,7 +76,7 @@
         <li><a href="VR.html">Виртуальная реальность</a></li>
         <li><a href="monopods.html">Моноподы для селфи</a></li>
         <li><a href="action-cameras.html">Экшн-камеры</a></li>
-        <li><a href="fitness-bracelets.html">Фитнесс браслеты</a></li>
+        <li><a href="fitness-bracelets.html">Фитнес-браслеты</a></li>
         <li><a href="smart-watch.html">Умные часы</a></li>
         <li><a href="quadcopters.html">Квадрокоптеры</a></li>
       </ul>
@@ -57,12 +84,32 @@
 
     <section class="conditions">
       <h2 class="visually-hidden">Условия</h2>
-      <ul class="conditions-list">
-        <li><span class="button conditions-button conditions-button-delivery">Доставка</span></li>
-        <li><span class="button conditions-button conditions-button-guarantee">Гарантия</span></li>
-        <li><span class="button conditions-button conditions-button-credit">Кредит</span></li>
-      </ul>
+    <form class="services" action="https://echo.htmlacademy.ru" method="get">
+    <div>
+      <button class="button delivery-button" type="button">Доставка</button>
+      <h3>Доставка</h3>
+      <p>Мы с удовольствием доставим ваш товар прямо к вашему
+        подъезду совершенно бесплатно! Ведь мы неплохо
+        заработаем, поднимая его на ваш этаж.</p>
       <img src="img/delivery.svg" width="80" height="80" alt="Доставка">
+    </div>
+    <div>
+      <button class="button warranty-button" type="button">Гарантия</button>
+      <h3>Гарантия</h3>
+      <p>Если из-за возгорания купленного у нас товара у вас сгорит
+      дом - не переживайте, мы выдадим вам новый.
+      Товар, не дом, конечно же.</p>
+      <img src="img/warranty.svg" width="80" height="80" alt="Гарантия">
+    </div>
+    <div>
+      <button class="button credit-button" type="button">Кредит</button>
+      <h3>Кредит</h3>
+      <p>Залезть в долговую яму стало проще! Кредитные
+      консультанты подберут для вас наиболее выгодные
+      условия кредита. Выгодные для нашего банка, разумеется.</p>
+      <img src="img/credit.svg" width="80" height="80" alt="Кредит">
+    </div>
+    </form>
     </section>
 
     <section class="information">
@@ -80,15 +127,38 @@
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-      <a href="information-more.html">Подробнее о нас</a>
+      <a href="more-about-us.html">Подробнее о нас</a>
 
       <h2>Контакты</h2>
       <p>
          Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
          проверить работоспособность покупки. Всякое бывает.
       </p>
-      <img src="img/map.jpg" alt="Карта">
-      <a href="communication.html">Напишите нам</a>
+      <p>
+        <img src="img/map.jpg" alt="Карта">
+      </p>
+    </section>
+    <section class="modal modal-map">
+      <p>
+          <img src="img/map-big.jpg" alt="Офис компании по адресу улица Строителей 15, Москва">
+        <button class="modal-close" type="button" alt="Закрыть-карту">
+      </p>
+    </section>
+    <section class="modal modal-write-us">
+      <button class="modal-open" type="button" alt="Напишите нам">Напишите нам</button>
+      <form class="box" action="https://echo.htmlacademy.ru" method="get">
+        <div>
+          <label for="name-field">Ваше имя:</label>
+          <input type="text" id="name-field" name="name" placeholder="Представьтесь, пожалуйста">
+          <label for="mail-field">Ваш e-mail:</label>
+          <input type="text" id="mail-field" name="e-mail" placeholder="Для отправки ответа">
+        </div>
+        <div>
+          <label for="letter-field">Текст письма:</label>
+          <textarea id="letter-field" name="letter" rows="5" cols="60" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="button" type="submit">Отправить</button>
+        <button class="modal-close" type="button" alt="Закрыть-форму">
     </section>
     </main>
 

@@ -10,8 +10,10 @@
         <a href="index.html" class="main-header-logo">
             <img src="img/logo.png" width="100" height="20" alt="Девайс">
         </a>
+        <form class="search" action="https://echo.htmlacademy.ru" method="get">
+          <input type="text" name="search-on-site" placeholder="Поиск по сайту">
+        </form>
         <ul class="user-navigation">
-          <li><a href="search.html">Поиск по сайту</a></li>
           <li><a href="profile.html">Валентин Петухов</a></li>
           <li><a href="logout-link.html">Выйти</a></li>
           <li><a href="comparison.html">Сравнить</a></li>
@@ -36,9 +38,11 @@
         <li><a class="monopods.html">Моноподы для селфи</a></li>
       </ul>
 
-      <form action="https://echo.htmlacademy.ru" method="get">
-        <h2>Фильтр:</h2>
+      <form class="filter" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset>
+        <legend>Фильтр:</legend>
           <b>Стоимость</b>
+          <input type="range" name="cost">
             <span class="low-cost">от 0</span>
             <span class="high-cost">до 5000</span>
 
@@ -63,10 +67,10 @@
           <input type="radio" name="bluetooth" value="yes" checked>Есть
           <input type="radio" name="bluetooth" value="no">Нет
 
-          <input type="submit" value="Показать">
+          <button class="button" type="submit">Показать</button>
+        </fieldset>
       </form>
-
-      <section class="sorting">
+        <section>
         <h2>Сортировка:</h2>
         <ul class="item-sorting">
           <li><a href="for-price.html">По цене</a></li>
@@ -96,17 +100,17 @@
         <span>4 900 руб.</span>
       </div>
       </section>
-      <ul class="pagination">
-        <li><a class="page-back">Назад</a></li>
-        <li><a class="monopods-1.html">1</a></li>
-        <li><a href="monopods-2.html">2</a></li>
-        <li><a href="monopods-3.html">3</a></li>
-        <li><a href="page-forward.html">Вперед</a></li>
-      </ul>
+      <form class="pagination" action="https://echo.htmlacademy.ru" method="get">
+        <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+        <button class="button gallery-button gallery-button-page-1" type="button">1</button>
+        <button class="button gallery-button gallery-button-page-2" type="button">2</button>
+        <button class="button gallery-button gallery-button-page-3" type="button">3</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+      </form>
     </main>
 
     <footer class="main-footer">
-      <a class="main-footer-logo">
+      <a href="index.html" class="main-footer-logo">
           <img src="img/logo-1.png" width="100" height="20" alt="Device">
       </a>
       <ul class="user-navigation">
