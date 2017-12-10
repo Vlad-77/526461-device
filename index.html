@@ -19,7 +19,7 @@
           <li><a href="cart.html">Корзина</a></li>
         </ul>
         <section class="modal modal-catalog-menu">
-          <button class="modal-open" type="button">Каталог товаров</button>
+          <a href="catalog-menu.html">Каталог товаров</a>
           <ul>
             <li><a href="VR.html">Виртуальная реальность</a></li>
             <li><a href="monopods.html">Моноподы для селфи</a></li>
@@ -51,27 +51,32 @@
       <a href="monopods.html">Подробнее</a>
     </section>
       <img src="img/slider-2.png" width="200" height="200" alt="Браслет">
-      <section class="preview-2">
+    <section class="preview-2">
         <p><b>Худеем правильно!</b></p>
         <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
            не пропускать занятия и соблюдать диету.</p>
         <a href="fitness-bracelets.html">Подробнее</a>
-      </section>
+    </section>
       <img src="img/slider-3.png" width="220" height="200" alt="Квадрокоптер">
       <section class="preview-3">
         <p><b>Порхает как бабочка, жалит как пчела!</b></p>
         <p>Этот обычный, на первый взгляд, квадрокоптер оснащен
         мощным лазером, замаскированным под стандартную камеру.</p>
         <a href="quadcopters.html">Подробнее</a>
+        <ul class="slides-switches">
+          <li class="slide-radio">
+            <button class="slide-btn">Первый слайд</button>
+          </li>
+          <li class="slide-radio">
+            <button class="slide-btn">Второй слайд</button>
+          </li>
+          <li class="slide-radio">
+            <button class="slide-btn">Третий слайд</button>
+          </li>
+        </ul>
       </section>
     <section class="goods">
       <h2 class="visually-hidden">Товары</h2>
-      <img src="img/popular-1.svg" width="60" height="60" alt="VR">
-      <img src="img/popular-2.svg" width="60" height="60" alt="Моноподы">
-      <img src="img/popular-3.svg" width="60" height="60" alt="Экшн">
-      <img src="img/popular-4.svg" width="60" height="60" alt="Фитнес">
-      <img src="img/popular-5.svg" width="60" height="60" alt="Умные-часы">
-      <img src="img/poppular-6.svg" width="60" height="60" alt="Квадрокоптеры">
       <ul class="goods-list">
         <li><a href="VR.html">Виртуальная реальность</a></li>
         <li><a href="monopods.html">Моноподы для селфи</a></li>
@@ -82,35 +87,36 @@
       </ul>
     </section>
 
-    <section class="conditions">
+    <div class="conditions">
       <h2 class="visually-hidden">Условия</h2>
-    <form class="services" action="https://echo.htmlacademy.ru" method="get">
-    <div>
-      <button class="button delivery-button" type="button">Доставка</button>
+      <ul class="conditions-list">
+          <li><span class="button conditions-button conditions-button-delivery">Доставка</span></li>
+          <li><span class="button conditions-button conditions-button-guarantee">Гарантия</span></li>
+          <li><span class="button conditions-button conditions-button-credit">Кредит</span></li>
+      </ul>
+    <section class="delivery">
       <h3>Доставка</h3>
       <p>Мы с удовольствием доставим ваш товар прямо к вашему
         подъезду совершенно бесплатно! Ведь мы неплохо
         заработаем, поднимая его на ваш этаж.</p>
       <img src="img/delivery.svg" width="80" height="80" alt="Доставка">
-    </div>
-    <div>
-      <button class="button warranty-button" type="button">Гарантия</button>
-      <h3>Гарантия</h3>
+    </section>
+    <section class='warranty'>
+          <h3>Гарантия</h3>
       <p>Если из-за возгорания купленного у нас товара у вас сгорит
       дом - не переживайте, мы выдадим вам новый.
       Товар, не дом, конечно же.</p>
       <img src="img/warranty.svg" width="80" height="80" alt="Гарантия">
-    </div>
-    <div>
-      <button class="button credit-button" type="button">Кредит</button>
+    </section>
+    <section class="credit">
       <h3>Кредит</h3>
       <p>Залезть в долговую яму стало проще! Кредитные
       консультанты подберут для вас наиболее выгодные
       условия кредита. Выгодные для нашего банка, разумеется.</p>
       <img src="img/credit.svg" width="80" height="80" alt="Кредит">
-    </div>
-    </form>
     </section>
+    </form>
+  </div>
 
     <section class="information">
       <h2>О нас</h2>
@@ -134,18 +140,14 @@
          Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
          проверить работоспособность покупки. Всякое бывает.
       </p>
-      <p>
         <img src="img/map.jpg" alt="Карта">
-      </p>
     </section>
     <section class="modal modal-map">
-      <p>
           <img src="img/map-big.jpg" alt="Офис компании по адресу улица Строителей 15, Москва">
         <button class="modal-close" type="button" alt="Закрыть-карту">
-      </p>
     </section>
     <section class="modal modal-write-us">
-      <button class="modal-open" type="button" alt="Напишите нам">Напишите нам</button>
+      <a href="write-us.html">Напишите нам</a>
       <form class="box" action="https://echo.htmlacademy.ru" method="get">
         <div>
           <label for="name-field">Ваше имя:</label>
@@ -163,6 +165,7 @@
     </main>
 
     <footer class="main-footer">
+      <div class="footer-top">
       <a class="main-footer-logo">
         <img src="img/logo-1.png" width="100" height="20" alt="Device">
       </a>
@@ -171,6 +174,8 @@
         <li><a href="compare.html">Сравнить</a></li>
         <li><a href="cart.html">Корзина</a></li>
       </ul>
+    </div>
+    <div class="footer-middle">
       <p class="footer-address">
         г. Москва, ул. Строителей, 15
       </p>
@@ -182,8 +187,11 @@
       <p class="footer-telephone-number">
         Тел.: +7(495)495-95-95
       </p>
-      <img src="img/group-1.png" alt="Соцсети">
-      <img src="img/logo-html.svg" alt="Значок-академии">
+    </div>
+    <div class="footer-bottom">
+      <a href="social-sites.html">Социальные сети</a>
+      <a href="htmlacademy.ru">Логотип Академии</a>
+    </div>
     </footer>
   </body>
 </html>
